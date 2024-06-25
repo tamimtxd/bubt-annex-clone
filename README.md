@@ -1,6 +1,6 @@
 # BUBT ANNEX - Clone
 
-Clone of [BUBT-ANNEX](https://annex.bubt.edu.bd/) login page slightly modified.
+Clone of [BUBT-ANNEX](https://annex.bubt.edu.bd/) login page, slightly modified.
 
 ## Overview
 
