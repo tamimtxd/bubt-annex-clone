@@ -15,14 +15,14 @@
 .nav-menu {
   display: flex;
   height: 100%;
-  width: 40%;
+  width: 30%;
   min-width: 300px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
 .nav-item {
-  height: 80%;
+  height: 75%;
 }
 .nav-icon {
   height: 100%;
@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-/* Cover */
+/* Shutter */
 .login-form::before {
   content: '';
   width: 50%;
@@ -96,14 +96,14 @@
   transition: 0.5s linear;
 }
 
-/* Animations */
+/* Shutter Animation */
 .login-form:focus-within::before {
-  transform: translateX(-100%);
+  left: -50%;
   filter: blur(100px);
   opacity: 0;
 }
 .login-form:focus-within::after {
-  transform: translateX(100%);
+  right: -50%;
   filter: blur(100px);
   opacity: 0;
 }
